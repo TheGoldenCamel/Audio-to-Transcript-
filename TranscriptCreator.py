@@ -20,6 +20,7 @@ elif pick_model not in models:
     print('Error, not a selectable model, please re-run the code and enter a valid model.')
     exit()
 
+
 model = whisper.load_model(pick_model)
 result = model.transcribe(audio_file_path)
 script = result["text"]
