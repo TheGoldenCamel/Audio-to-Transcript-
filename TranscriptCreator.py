@@ -11,7 +11,6 @@ audio_file_path = input('Input the full path to your audio file (e.g., /path/to/
 
 pick_model = input("Pick the model you would like to choose. Not sure which one to choose? Type '1' to get whisper's affilate link ")
 
-
 if pick_model == '1':
     print('https://github.com/openai/whisper?tab=readme-ov-file#available-models-and-languages')
     exit()
