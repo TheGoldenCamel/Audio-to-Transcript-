@@ -5,7 +5,6 @@ import os
 
 models = {'tiny', 'base', 'small', 'medium', 'large'}
 
-
 file_name = input('Input new transcript file name (.txt already added to end): ')
 file_path = file_name + '.txt'
 audio_file_path = input('Input the full path to your audio file (e.g., /path/to/AudioTest.mp3): ')
