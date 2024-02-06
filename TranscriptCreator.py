@@ -22,7 +22,7 @@ elif pick_model not in models:
     exit()
   
 # Audio Transcription:
-model = whisper.load_model("base")
+model = whisper.load_model(pick_model)
 result = model.transcribe(audio_file_path)
 script = result["text"]
 
